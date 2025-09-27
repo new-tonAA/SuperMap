@@ -20,6 +20,7 @@ RowLayout {
         extraWidth:             instrumentPanel.extraValuesWidth
         settingsGroup:          factValueGrid.telemetryBarSettingsGroup
         specificVehicleForCard: null // Tracks active vehicle
+        visible:                false
     }
 
     FlyViewInstrumentPanel {
